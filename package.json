@@ -1,0 +1,35 @@
+{
+  "name": "git-plus-toolbar",
+  "main": "./src/git-plus-toolbar",
+  "version": "1.0.0",
+  "description": "A toolbar to assist with your git-plus needs",
+  "keywords": [
+    "tool-bar",
+    "git-plus"
+  ],
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "repository": "https://github.com/Pyragon/git-plus-toolbar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0",
+    "octicons": "^5.0.1"
+  },
+  "package-deps": [
+    "tool-bar",
+    "git-plus"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1"
+  }
+}
