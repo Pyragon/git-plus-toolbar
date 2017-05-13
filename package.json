@@ -1,7 +1,7 @@
 {
   "name": "git-plus-toolbar",
   "main": "./src/git-plus-toolbar",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A toolbar to assist with your git-plus needs",
   "keywords": [
     "tool-bar",
