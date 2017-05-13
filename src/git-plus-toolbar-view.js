@@ -31,21 +31,21 @@ export default class GitPlusToolbarView extends Disposable {
     toolbar.addButton({
       tooltip: 'Init',
       callback: 'git-plus:init',
-      iconset: 'octicons',
+      iconset: '',
       icon: 'repo'
     });
 
     toolbar.addButton({
       callback: 'git-plus:new-branch',
       tooltip: 'Create new branch',
-      iconset: 'octicons',
+      iconset: '',
       icon: 'git-branch'
     });
 
     toolbar.addButton({
       callback: 'git-plus:checkout',
       tooltip: 'Checkout branch',
-      iconset: 'octicons',
+      iconset: '',
       icon: 'search'
     });
 
@@ -66,13 +66,13 @@ export default class GitPlusToolbarView extends Disposable {
     toolbar.addButton({
       callback: 'git-plus:commit',
       tooltip: 'Commit',
-      iconset: 'octicons',
+      iconset: '',
       icon: 'git-commit'
     });
 
     toolbar.addButton({
       tooltip: 'Compare',
-      iconset: 'octicons',
+      iconset: '',
       icon: 'git-compare',
       callback: 'git-plus:diff'
     });
@@ -94,14 +94,14 @@ export default class GitPlusToolbarView extends Disposable {
     toolbar.addButton({
       tooltip: 'Push',
       callback: 'git-plus:push',
-      iconset: 'octicons',
+      iconset: '',
       icon: 'repo-push'
     });
 
     toolbar.addButton({
       tooltip: 'Pull',
       callback: 'git-plus:pull',
-      iconset: 'octicons',
+      iconset: '',
       icon: 'repo-pull'
     });
   }

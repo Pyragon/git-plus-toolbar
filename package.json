@@ -20,8 +20,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "^4.6.0",
-    "octicons": "^5.0.1"
+    "atom-package-deps": "^4.6.0"
   },
   "package-deps": [
     "tool-bar",
