@@ -1,5 +1,7 @@
 # git-plus-toolbar package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Pyragon/git-plus-toolbar.svg)](https://greenkeeper.io/)
+
 A toolbar made for the git-plus package for Atom.
 This toolbar was made for ease-of-use, and all functionality is credited to the author of git-plus.
 
